@@ -12,7 +12,7 @@ STIX（Structured Threat Information Expression）是一种用于交换网络威
     <td colspan="3" align="center">STIX Meta Objects</td>
 </tr>
 <tr>
-    <td>STIX Domain Objects（SDO）</td>
+    <td><a href="stix/sdo.md">STIX Domain Objects（SDO）</a></td>
     <td>STIX Cyber-observable Objects（SCO）</td>
     <td>STIX Relationship Objects（SRO）</td>
     <td>Extension Definition Objects</td>
