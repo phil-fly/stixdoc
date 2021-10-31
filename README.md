@@ -31,9 +31,10 @@ STIX（Structured Threat Information Expression）是一种用于交换网络威
 [《信息安全技术网络安全威胁信息格式规范》(GB/T 36643-2018)](http://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=971636AF85AD7158EA50BB428F67C803)
 
 [STIX标准 身份的类别(identity_class)公开字典](stix/identity_class_list.md)
+
 [STIX标准 行业领域(Sectors)公开字典](stix/Sectors_list.md)
 
-[威胁源标签](stix/Threat_Actor _Label.md)
+[威胁源标签](stix/Threat_Actor_Label.md)
 
 ## 笔记
 
