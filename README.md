@@ -1,6 +1,28 @@
 # stixdoc
 
-## 示例
+STIX（Structured Threat Information Expression）是一种用于交换网络威胁情报（cyber threat intelligence，CTI）的语言和序列化格式。STIX的应用场景包括：协同威胁分析、自动化威胁情报交换、自动化威胁检测和响应等。
+## STIX对网络威胁情报的描述方法如下：
+<table>
+<tr>
+    <td colspan="6" align="center">STIX Objects</td>
+    <td rowspan="3">STIX Bundle Objects</td>
+</tr>
+<tr>
+    <td colspan="3" align="center">STIX Core Objects</td>
+    <td colspan="3" align="center">STIX Meta Objects</td>
+</tr>
+<tr>
+    <td>STIX Domain Objects（SDO）</td>
+    <td>STIX Cyber-observable Objects（SCO）</td>
+    <td>STIX Relationship Objects（SRO）</td>
+    <td>Extension Definition Objects</td>
+    <td>Language Content Objects</td>
+    <td>Marking Definition Objects</td>
+</tr>
+</table>
+
+
+---
 
 ## 资料整理
 
@@ -16,19 +38,7 @@
 ## 笔记
 
 
-## STIX 12构件
-- Attack Pattern (攻击模式)：描述攻击者试图破坏目标的方式
-- Campaign (攻击活动): 描述一系列针对特定目标的恶意行为或一段时间内发动的攻击
-- Course of Action
-- Identity
-- Indicator
-- Intrusion Set
-- Tool
-- Malware
-- Observed Data
-- Report
-- Threat Actor
-- Vulnerability
+
 
 关键字说明：
 - SDO：[STIX Domain Objects](stix/sdo.md)
