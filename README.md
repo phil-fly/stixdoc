@@ -34,10 +34,12 @@ STIX（Structured Threat Information Expression）是一种用于交换网络威
 
 [STIX标准 行业领域(Sectors)公开字典](stix/Sectors_list.md)
 
+[STIX标准 恶意软件类型](stix/Sectors_list.md)
+
 [威胁源标签](stix/Threat_Actor_Label.md)
 
 ## 笔记
-
+- Malware: [恶意软件相关内容](stix/Malware.md)
 
 
 
@@ -46,5 +48,7 @@ STIX（Structured Threat Information Expression）是一种用于交换网络威
 - SCO: [STIX Cyber-observable Objects](stix/sco.md)威胁情报中具体的可观察对象，用于刻画基于主机或基于网络的信息。
 - SRO: [STIX Relationship Objects](stix/sro.md)
 - TTP: 攻击技术手法
+
+
 
 - 可观察对象：可以是动态的事件，也可以是静态的资产，例如HTTP会话、X509证书、文件、系统配置项等。
