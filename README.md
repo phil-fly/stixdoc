@@ -34,7 +34,7 @@ STIX（Structured Threat Information Expression）是一种用于交换网络威
 
 [STIX标准 行业领域(Sectors)公开字典](stix/Sectors_list.md)
 
-[STIX标准 恶意软件类型](stix/Sectors_list.md)
+[STIX标准 恶意软件类型](stix/Malware.md)
 
 [威胁源标签](stix/Threat_Actor_Label.md)
 
