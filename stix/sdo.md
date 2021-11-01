@@ -18,7 +18,7 @@ Grouping表示分析和调查过程中产生的数据（待确认的线索数据
 Identity可以代表特定的个人、组织或团伙；也可以代表一类个人、组织、系统或团伙。Identity SDO可以捕获基本标识信息，联系信息以及Identity所属的部门。 Identity在STIX中用于表示攻击目标，信息源，对象创建者和威胁参与者身份。
 ### Indicator：
 Indicator表示可用于检测可疑行为的模式。如用STIX Patterning Language来描述恶意域名集合（第九章）。
-### Infrastructure：
+### Infrastructure：(基础设施)
 TTP的类型之一，用于描述系统、软件服务等其它的物理或虚拟资源；如攻击者使用的C2服务器，防御者使用的设备和服务器，以及作为被攻击目标的数据库服务器等；
 ### Intrusion Set：
 Intrusion set是由某个组织所使用的恶意行为和资源的集合。一个Intrusion Set可能会捕获多个Campaigns，他们共同指向一个Threat Actor。新捕获的活动可以被归因于某个Intrusion Set，而Actors可以在Intrusion之间跳转，甚至从属于多个Intrusion Set。Intrusion Set和Campaigns对比：Where a Campaign is a set of attacks over a period of time against a specific set of targets to achieve some objective, an Intrusion Set is the entire attack package and may be used over a very long period of time in multiple Campaigns to achieve potentially multiple purposes.
