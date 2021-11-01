@@ -40,6 +40,8 @@ STIX（Structured Threat Information Expression）是一种用于交换网络威
 
 [字典 攻击动机](stix/Attack_Motivation_Vocabulary.md)
 
+[SRO Relationship 关系摘要表](stix/SRO/relationshipTable.md)
+
 ## 笔记
 - Malware: [恶意软件相关内容](stix/Malware.md)
 

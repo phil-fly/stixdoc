@@ -14,7 +14,7 @@
 Type Name: attack-pattern
 
 TTP类型之一，它描述了攻击者试图破坏目标的方式，对应于TTP中的战术。可用于帮助对攻击进行分类，将特定的攻击概括为其遵循的模式，并提供有关如何进行攻击的详细信息。如spear fishing就是一种攻击模式，而更具体的描述，如被特定攻击者实施的spear fishing也是一种攻击模式。
-## Campaign：
+## [Campaign](SDO/campaign.md)
 
 表示某次具体的攻击活动。A Campaign is a grouping of adversarial behaviors that describes a set of malicious activities or attacks (sometimes called waves) that occur over a period of time against a specific set of targets. Campaigns usually have well defined objectives and may be part of an Intrusion Set.
 ## Course of Action：

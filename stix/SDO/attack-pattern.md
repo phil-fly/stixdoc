@@ -7,7 +7,7 @@
 攻击模式 SDO 包含该模式的文本描述，以及对外部定义的攻击分类的引用，如 CAPEC[CAPEC]。
 
 
-## 属性
+## Properties(属性)
 <table class="af5" border="0" cellspacing="0" cellpadding="0" width="613" style="border-collapse:collapse">
  <tbody><tr>
   <td width="613" colspan="3" valign="top" style="width:459.75pt;border:solid black 1.0pt;
@@ -203,7 +203,7 @@
 </table>
 
 
-## Relationships
+## Relationships(关系)
 
 这些是攻击模式对象与其他 STIX 对象之间明确定义的关系。第一部分按属性名称及其相应目标列出嵌入关系。表的其余部分通过关系对象识别从此对象类型到其他对象类型的关系。反向关系部分从另一对象类型中说明针对此对象类型的关系。为了方便起见，它们被包括在这里。
 关系不限于下面列出的关系。使用相关关系类型，或与开放词汇一样，用户定义的名称可以在任何对象之间创建关系。
@@ -450,3 +450,64 @@
 </tbody></table>
 
 
+## 示例
+
+鱼叉式网络钓鱼的通用攻击模式，引用 CAPEC
+
+```json
+{
+  "type": "attack-pattern",
+  "spec_version": "2.1",
+  "id": "attack-pattern--0c7b5b88-8ff7-4a4d-aa9d-feb398cd0061",
+  "created": "2016-05-12T08:17:27.000Z",
+  "modified": "2016-05-12T08:17:27.000Z",
+  "name": "Spear Phishing",
+  "description": "...",
+  "external_references": [
+    {
+      "source_name": "capec",
+      "external_id": "CAPEC-163"
+    }
+  ]
+}
+```
+
+特定形式的鱼叉式网络钓鱼的特定攻击模式，引用 CAPEC
+
+```json
+[
+  {
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--7e33a43e-e34b-40ec-89da-36c9bb2cacd5",
+    "created": "2016-05-12T08:17:27.000Z",
+    "modified": "2016-05-12T08:17:27.000Z",
+    "name": "Spear Phishing as Practiced by Adversary X",
+    "description": "A particular form of spear phishing where the attacker claims that the target had won a contest, including personal details, to get them to click on a link.",
+    "external_references": [
+      {
+        "source_name": "capec",
+        "external_id": "CAPEC-163"
+      }
+    ]
+  },
+  {
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--57b56a43-b8b0-4cba-9deb-34e3e1faed9e",
+    "created": "2016-05-12T08:17:27.000Z",
+    "modified": "2016-05-12T08:17:27.000Z",
+    "relationship_type": "uses",
+    "source_ref": "intrusion-set--0c7e22ad-b099-4dc3-b0df-2ea3f49ae2e6",
+    "target_ref": "attack-pattern--7e33a43e-e34b-40ec-89da-36c9bb2cacd5"
+  },
+  {
+    "type": "intrusion-set",
+    "spec_version": "2.1",
+    "id": "intrusion-set--0c7e22ad-b099-4dc3-b0df-2ea3f49ae2e6",
+    "created": "2016-05-12T08:17:27.000Z",
+    "modified": "2016-05-12T08:17:27.000Z",
+    "name": "Adversary X"
+  }
+]
+```
