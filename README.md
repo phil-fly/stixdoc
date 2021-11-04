@@ -26,21 +26,39 @@ STIX（Structured Threat Information Expression）是一种用于交换网络威
 
 ## 资料整理
 
-[威胁画像：对STIX2.0标准12个构件的解读](https://www.secrss.com/articles/13297)
+威胁情报
 
-[《信息安全技术网络安全威胁信息格式规范》(GB/T 36643-2018)](http://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=971636AF85AD7158EA50BB428F67C803)
+​		[威胁情报的核心概念](cti/威胁情报的核心概念.md)
 
-[字典 STIX标准 身份的类别(identity_class)](stix/identity_class_list.md)
+​		[威胁情报的分类](cti/威胁情报的分类.md)
 
-[字典 STIX标准 行业领域(Sectors)](stix/Sectors_list.md)
+​		[威胁情报的相关标准：STIX™和TAXII™](cti/威胁情报的相关标准：STIX™和TAXII™.md)
 
-[字典 STIX标准 恶意软件类型](stix/Malware.md)
+​		[威胁情报定义](cti/威胁情报定义)
 
-[字典 威胁源标签](stix/Threat_Actor_Label.md)
+​		[威胁情报的价值呈现](cti/威胁情报的价值呈现.md)
 
-[字典 攻击动机](stix/Attack_Motivation_Vocabulary.md)
+​		[威胁情报和ATT&CK™模型](cti/威胁情报和ATT&CK™模型.md)
 
-[SRO Relationship 关系摘要表](stix/SRO/relationshipTable.md)
+
+
+STIX
+
+​		[威胁画像：对STIX2.0标准12个构件的解读](https://www.secrss.com/articles/13297)
+
+​		[《信息安全技术网络安全威胁信息格式规范》(GB/T 36643-2018)](http://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=971636AF85AD7158EA50BB428F67C803)
+
+​		[字典 STIX标准 身份的类别(identity_class)](stix/identity_class_list.md)
+
+​		[字典 STIX标准 行业领域(Sectors)](stix/Sectors_list.md)
+
+​		[字典 STIX标准 恶意软件类型](stix/Malware.md)
+
+​		[字典 威胁源标签](stix/Threat_Actor_Label.md)
+
+​		[字典 攻击动机](stix/Attack_Motivation_Vocabulary.md)
+
+​		[SRO Relationship 关系摘要表](stix/SRO/relationshipTable.md)
 
 ## 笔记
 - Malware: [恶意软件相关内容](stix/Malware.md)
